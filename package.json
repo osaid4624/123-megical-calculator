@@ -1,6 +1,6 @@
 {
   "name": "123magic-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Sample calculator with typescript, node.js and inquirer",
   "main": "index.js",
   "type": "module",
