@@ -19,13 +19,15 @@ const answer = await inquirer.prompt([
     console.log(answer.firstnumber + answer.Secondnumber);
  }
  else if (answer .operator === "subtraction") {
-    console.log(answer.firstnumber + answer.Secondnumber);
+    console.log(answer.firstnumber - answer.Secondnumber);
  }
  else if(answer .operator === "multiplication") {
-    console.log(answer.firstnumber + answer.Secondnumber);
+    console.log(answer.firstnumber * answer.Secondnumber);
  }
  else if(answer .operator === "dividision") {
-    console.log(answer.firstnumber + answer.Secondnumber);
+    console.log(answer.firstnumber / answer.Secondnumber);
  }
+ else(
+   console.log("Please valid operator")
+ )
  
- console.log("The end");
